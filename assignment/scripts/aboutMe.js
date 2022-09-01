@@ -15,13 +15,13 @@ let luckyNumber = 2;
 // Refer back to the videos if you need help with this one.
 console.log('My name is', fullName + ' and I think', luckyNumber + ' is a winner!');
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-adventurous = true;
+let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
-food = 'KBBQ';
+let food = 'KBBQ';
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-pets = 1;
+let pets = 1;
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-friendsPets = 2;
+let friendsPets = 2;
 // 11 - Add two pets to your `pets` variable
 pets += 2;
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
@@ -59,6 +59,7 @@ if (pets < allowedPets) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
+let mostPets;
 if (pets >= friendsPets) {
     mostPets = pets;
 } else {
